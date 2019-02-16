@@ -57,4 +57,24 @@ body {
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+
 }
+
+/***********FOOTER********/
+footer {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 700;
+    clear: left;
+    padding-left: 50px;
+    padding-top: 450px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color:#db2a65;
+    
+    
+}
+
