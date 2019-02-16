@@ -1,0 +1,60 @@
+body {
+    width:100%;
+    background-color: #26293c;
+}
+
+.email,.github, .facebook {
+    float: left;
+    padding-left: 200px;
+}
+
+
+/**********Animation Code**********/
+
+@-webkit-keyframes e-mail {
+    0% {top: 0px;}
+    25% {top: 20px;}
+    50% {top: 50px;}
+    100% {top: 100px;}
+}
+.email {
+    position: relative;
+    animation-name: e-mail;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+
+@-webkit-keyframes github {
+    0% {top: 0px;}
+    25% {top: 50px;}
+    50% {top: 100px;}
+    100% {top:250px;}
+
+}
+
+.github {
+    position: relative;
+    animation-name: github;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes facebook {
+    0% {top: 0px;}
+    25% {top: 100px;}
+    50% {top: 230px;}
+    100% {top: 400px;}
+}
+
+.facebook {
+    position: relative;
+    animation-name: facebook;
+    animation-delay: 4s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
