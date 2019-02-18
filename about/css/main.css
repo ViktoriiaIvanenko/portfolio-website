@@ -1,0 +1,73 @@
+/********General Style****/
+.full-width {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin:20px 20px 0px 20px;
+    box-sizing: border-box;
+}
+
+.half-width {
+    font-family: 'Montserrat', sans-serif;
+    width: 45%;
+    float: left;
+    margin: 20px 20px 30px 20px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #26293c;
+}
+
+/****Top Section***/
+h4 {
+    font-weight: 900;
+    font-size: 22px;
+    color: #db2a65;
+    padding-left: 20px;
+    text-transform: lowercase;
+}
+
+#second-line {
+    padding-left:30px;
+}
+
+#third-line {
+    padding-left: 30px;
+}
+
+/**********TextAbout****/
+p {
+    font-size: 15.5px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: lowercase;
+    padding-left: 20px;
+}
+
+#whitman {
+    font-family: 'Wisdom Script';
+    text-decoration: small-caps;
+    color: #db2a65;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+/*****Footer****/
+footer {
+    clear:left;
+    margin:40px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+footer a {
+    text-decoration: none;
+    color: #db2a65;
+    font-size: 12px;
+    font-weight:700;
+    padding-left: 20px;
+    text-transform: lowercase;
+}

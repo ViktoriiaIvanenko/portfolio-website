@@ -3,6 +3,7 @@
 section {
     width: 100%;
     margin-left: 130px;
+    box-sizing: border-box;
 }
 .third-width {
     width: 570px;
@@ -10,6 +11,7 @@ section {
     padding: 0px;
     margin: 20px;
     float: left;
+    box-sizing: border-box;
 
 }
 body {
@@ -46,7 +48,7 @@ body {
 }
 
 
-/******Project Description Typewirter Effect****/
+/******Project Description Typewriter Effect****/
 
 @-webkit-keyframes typewriter-advice {
     from {width:0%}
