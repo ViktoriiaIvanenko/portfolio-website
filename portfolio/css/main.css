@@ -2,35 +2,126 @@
 
 section {
     width: 100%;
-    margin-left: 150px;
+    margin-left: 130px;
 }
 .third-width {
     width: 570px;
     height: 282px;
-    padding:0;
-    margin: 0;
-    border-width: 3px;
-    border-style: solid;
-    border-color: black;
     padding: 0px;
-    margin: 0px;
+    margin: 20px;
     float: left;
 
 }
 body {
     font-family: "Montserrat", sans-serif;
+    color: #db2a65;
     background-color: #26293c;
 }
 
+#rogue, #rogue-text {
+    margin-bottom:25px;
+}
+
+/********Project Description Styles********/
+#advice-text h3, #jubilee-text h3, #rogue-text h3 {
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: lowercase;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#advice-text span, #jubilee-text span, #rogue-text span {
+    font-family: "wisdom Script";
+    text-decoration: small-caps;
+    color: #ffffff;
+}
+
+#advice-text p, #jubilee-text p, #rogue-text p {
+    box-sizing: border-box;
+    width:540px;
+    padding:20px;
+    line-height: 30px;
+}
+
+
+/******Project Description Typewirter Effect****/
+
+@-webkit-keyframes typewriter-advice {
+    from {width:0%}
+    to {width:100%}
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#26293c; }
+  }
+
+
+#typewriter-advice {
+    overflow: hidden;
+    border-right: 0.2px solid #26293c; /* The typwriter cursor */
+    white-space: nowrap;
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    padding: 5px;
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      typewriter-advice 5.5s steps(40, end),
+      blink-caret .75s step-end 5s;
+}
+@-webkit-keyframes typewriter-jubilee {
+    from {width:0%}
+    to {width:100%}
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#26293c; }
+  }
+
+#typewriter-jubilee {
+    overflow: hidden;
+    border-right: 0.2px solid #26293c; /* The typwriter cursor */
+    white-space: nowrap;
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    padding: 11px;
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      typewriter-advice 5.5s steps(40, end),
+      blink-caret .75s step-end 5s;
+      animation-delay: 5s;
+}
+
+@-webkit-keyframes typewriter-rogue {
+    from {width:0%}
+    to {width:100%}
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#26293c; }
+  }
+
+#typewriter-rogue {
+    overflow: hidden;
+    border-right: 0.2px solid #26293c; /* The typwriter cursor */
+    white-space: nowrap;
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    padding: 5px;
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      typewriter-advice 5.5s steps(40, end),
+      blink-caret .75s step-end 5s;
+      animation-delay: 11s;
+}
 
 /********FOOTER********/
 footer {
     font-size: 12px;
     margin:0px;
     padding-left: 1350px;
-    border-style: solid;
-    border-width: .5px;
-    border-color: black;
+    
 }
 
 footer a {
