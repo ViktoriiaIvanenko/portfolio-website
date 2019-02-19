@@ -2,16 +2,17 @@
 .full-width {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    margin:20px 20px 0px 20px;
-    box-sizing: border-box;
+    margin:10px 20px 0px 20px;
+    box-sizing: border-box;   
 }
 
 .half-width {
     font-family: 'Montserrat', sans-serif;
     width: 45%;
     float: left;
-    margin: 20px 20px 30px 20px;
+    margin: 0px 20px 0px 20px;
     box-sizing: border-box;
+   
 }
 body {
     background-color: #26293c;
@@ -21,7 +22,7 @@ body {
 h4 {
     font-weight: 900;
     font-size: 22px;
-    color: #db2a65;
+    color: #ffffff;
     padding-left: 20px;
     text-transform: lowercase;
 }
@@ -35,12 +36,26 @@ h4 {
 }
 
 /**********TextAbout****/
-p {
-    font-size: 15.5px;
+
+.skills {
+    font-size: 35px;
+    text-align: left;
+    font-weight: 900;
+    text-transform: lowercase;
+    color: #db2a65;
+    margin: 0px 20px 0px 20px;
+    padding: 20px;
+    line-height:75px;
+    letter-spacing: .5px;
+    box-sizing: border-box;
+}
+.text {
+    font-size: 13.5px;
     color: #ffffff;
     text-align: center;
     text-transform: lowercase;
-    padding-left: 20px;
+    padding-top: 35px;
+    box-sizing: border-box;
 }
 
 #whitman {
@@ -48,8 +63,7 @@ p {
     text-decoration: small-caps;
     color: #db2a65;
     font-weight: 700;
-
-}
+ }
 
 
 
@@ -59,7 +73,7 @@ p {
 /*****Footer****/
 footer {
     clear:left;
-    margin:40px 20px 20px 20px;
+    margin:20px 20px 20px 20px;
     box-sizing: border-box;
 }
 

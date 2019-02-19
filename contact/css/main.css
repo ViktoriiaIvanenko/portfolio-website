@@ -12,7 +12,7 @@ body {
 
 /**********Animation Code**********/
 
-@-webkit-keyframes e-mail {
+@keyframes e-mail {
     0% {top: 0px;}
     25% {top: 20px;}
     50% {top: 50px;}
@@ -27,7 +27,7 @@ body {
 
 }
 
-@-webkit-keyframes github {
+@keyframes github {
     0% {top: 0px;}
     25% {top: 50px;}
     50% {top: 100px;}
@@ -44,7 +44,7 @@ body {
     animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes facebook {
+@keyframes facebook {
     0% {top: 0px;}
     25% {top: 100px;}
     50% {top: 230px;}
@@ -66,7 +66,9 @@ footer {
     font-family: 'Montserrat', sans-serif;
     clear: left;
     padding-left: 50px;
-    padding-top: 450px;
+    padding-top: 430px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 footer a {
@@ -79,4 +81,3 @@ footer a {
     
     
 }
-

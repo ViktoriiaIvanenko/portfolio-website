@@ -2,7 +2,7 @@
 
 section {
     width: 100%;
-    margin-left: 130px;
+    margin-left: 105px;
     box-sizing: border-box;
 }
 .third-width {
@@ -50,7 +50,7 @@ body {
 
 /******Project Description Typewriter Effect****/
 
-@-webkit-keyframes typewriter-advice {
+@keyframes typewriter-advice {
     from {width:0%}
     to {width:100%}
 }
@@ -72,7 +72,7 @@ body {
       typewriter-advice 5.5s steps(40, end),
       blink-caret .75s step-end 5s;
 }
-@-webkit-keyframes typewriter-jubilee {
+@keyframes typewriter-jubilee {
     from {width:0%}
     to {width:100%}
 }
@@ -95,7 +95,7 @@ body {
       animation-delay: 5s;
 }
 
-@-webkit-keyframes typewriter-rogue {
+@keyframes typewriter-rogue {
     from {width:0%}
     to {width:100%}
 }
