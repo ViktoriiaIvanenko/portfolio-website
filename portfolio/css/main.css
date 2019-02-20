@@ -18,6 +18,10 @@ body {
     font-family: "Montserrat", sans-serif;
     color: #db2a65;
     background-color: #26293c;
+    height: auto;
+    min-width: 100px;
+    margin: 0 auto;
+    padding:0;
 }
 
 #rogue, #rogue-text {

@@ -2,6 +2,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     width:100%;
     background-color: #26293c;
+    height: auto;
+    min-width: 1000px;
+    margin: 0 auto;
+    padding:0;
 }
 
 .email,.github, .facebook {
