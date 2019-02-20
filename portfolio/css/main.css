@@ -15,11 +15,13 @@ section {
 
 }
 body {
+    width: 100%;
     font-family: "Montserrat", sans-serif;
     color: #db2a65;
     background-color: #26293c;
     height: auto;
-    min-width: 100px;
+    min-width: 600px;
+    max-width: 2500px;
     margin: 0 auto;
     padding:0;
 }
