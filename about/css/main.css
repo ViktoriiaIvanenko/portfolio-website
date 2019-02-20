@@ -2,7 +2,7 @@
 .full-width {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    margin:10px 20px 0px 20px;
+    margin:20px 20px 0px 20px;
     box-sizing: border-box;   
 }
 
@@ -10,7 +10,7 @@
     font-family: 'Montserrat', sans-serif;
     width: 45%;
     float: left;
-    margin: 0px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
     box-sizing: border-box;
    
 }
@@ -34,13 +34,16 @@ h4 {
 }
 
 #second-line {
-    padding-left:30px;
+    padding-left:10px;
 }
 
 #third-line {
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
+#color {
+    color: #db2a65;
+}
 /**********TextAbout****/
 
 .skills {
@@ -51,8 +54,7 @@ h4 {
     color: #db2a65;
     margin: 0px 20px 0px 20px;
     padding: 20px;
-    line-height:75px;
-    letter-spacing: .5px;
+    line-height:50px;
     box-sizing: border-box;
 }
 .text {
@@ -60,9 +62,10 @@ h4 {
     color: #ffffff;
     text-align: center;
     text-transform: lowercase;
-    padding-top: 45px;
+    padding-top: 100px;
     box-sizing: border-box;
 }
+
 
 #whitman {
     font-family: 'Wisdom Script';
