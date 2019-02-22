@@ -103,6 +103,7 @@ footer {
 }
 
 footer a {
+    font-family: 'Montserrat',sans-serif;
     text-decoration: none;
     color: #db2a65;
     font-size: 12px;
