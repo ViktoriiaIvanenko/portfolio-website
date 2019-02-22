@@ -91,6 +91,9 @@ h4 {
 
 
 /*****Footer****/
+#color {
+    color: #ffffff;
+}
 footer {
     font-family: 'Monstserrat', sans-serif;
     clear:left;

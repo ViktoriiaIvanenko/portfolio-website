@@ -68,6 +68,9 @@ body {
 }
 
 /***********FOOTER********/
+#color {
+    color: #ffffff;
+}
 footer {
     font-family: 'Montserrat', sans-serif;
     clear: left;

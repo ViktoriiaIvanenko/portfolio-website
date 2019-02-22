@@ -125,6 +125,10 @@ body {
 }
 
 /********FOOTER********/
+#color {
+    color: #db2a65;
+}
+
 footer {
     font-family: 'Montserrat', sans-serif;
     clear: left;
@@ -133,6 +137,7 @@ footer {
     padding: 20px;
     
 }
+
 
 footer a {
     text-decoration: none;
@@ -144,3 +149,5 @@ footer a {
 
 
 }
+
+
