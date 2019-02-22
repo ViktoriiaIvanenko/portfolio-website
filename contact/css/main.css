@@ -84,6 +84,16 @@ footer a {
     font-weight: 900;
     color:#db2a65;
     text-transform: lowercase;
+    padding-left: 20px;
     
     
+}
+
+span {
+    padding-left: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: lowercase;
+    color:#ffffff;
+    font-size: 18px;
 }

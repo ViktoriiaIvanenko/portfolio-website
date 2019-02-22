@@ -34,7 +34,7 @@ h4 {
 }
 
 #second-line {
-    padding-left:10px;
+    padding-left: 10px;
 }
 
 #third-line {
@@ -54,7 +54,7 @@ h4 {
     color: #db2a65;
     margin: 0px 20px 0px 20px;
     padding: 20px;
-    line-height:50px;
+    line-height: 50px;
     box-sizing: border-box;
 }
 .text {
@@ -62,7 +62,7 @@ h4 {
     color: #ffffff;
     text-align: center;
     text-transform: lowercase;
-    padding-top: 100px;
+    padding-top: 155px;
     box-sizing: border-box;
 }
 
@@ -74,16 +74,28 @@ h4 {
     font-weight: 700;
  }
 
-
+ h2 {
+    font-family: 'Wisdom Script';
+    font-weight: 900;
+    color:#db2a65;
+    margin: 0;
+    padding-right: 47px;
+    text-align: right;
+    font-size: 27px;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+   
+ }
 
 
 
 
 /*****Footer****/
 footer {
+    font-family: 'Monstserrat', sans-serif;
     clear:left;
-    margin:20px 20px 20px 20px;
-    padding-top: 50px;
+    margin:0px 20px 20px 20px;
+    padding-top: 0 auto;
     box-sizing: border-box;
 }
 

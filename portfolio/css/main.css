@@ -48,8 +48,8 @@ body {
 
 #advice-text p, #jubilee-text p, #rogue-text p {
     box-sizing: border-box;
-    width:540px;
-    padding:20px;
+    width: 540px;
+    padding: 20px;
     line-height: 30px;
 }
 
@@ -126,9 +126,10 @@ body {
 
 /********FOOTER********/
 footer {
+    font-family: 'Montserrat', sans-serif;
     clear: left;
     font-size: 12px;
-    margin-left:70px;
+    margin-left: 50px;
     padding: 20px;
     
 }
@@ -139,7 +140,7 @@ footer a {
     font-weight: 900;
     font-size: 12px;
     text-transform: lowercase;
-    padding: 20px 20px 20 px 10 px;
+    padding-left: 20px;
 
 
 }
